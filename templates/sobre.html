@@ -1,0 +1,33 @@
+{% extends "modelo.html" %}
+{% block conteudo %}
+
+    <h1>Sobre o projeto</h1>
+    <p>Este é um sistema educacional desenvolvido para as disciplinas de Introdução à Programação e Tópicos Essenciais para Programação.</p>
+    <div class="d-flex flex-column">
+        <p class="mr-3">Desenvolvido por:</p>
+        <p class="mr-3"><a href="https://github.com/CaioZidany" target="_blank">@CaioZidany | Caio Zidany S. Gomes</a></p>
+        <p class="mr-3"><a href="https://github.com/SamuelloranD" target="_blank">@SamuelloranD | Samuel L S Araujo</a></p>
+        <!-- Adicione mais pessoas seguindo o mesmo padrão -->
+    </div>
+
+    <h1>Sobre a equipe</h1>
+    <div class="d-flex flex-wrap"> <!-- Container flexível com quebra de linha -->
+        <div class="card mr-3" style="width: 18rem;"> <!-- mr-3 para dar espaço entre os elementos -->
+            <div class="card-body">
+                <p class="card-text">Samuel Lorand.</p>
+            </div>
+        </div>
+        <div class="card mr-3" style="width: 18rem;"> <!-- mr-3 para dar espaço entre os elementos -->
+          <div class="card-body">
+              <p class="card-text">Caio Zidany.</p>
+          </div>
+        </div>
+        <div class="card mr-3" style="width: 18rem;"> <!-- mr-3 para dar espaço entre os elementos -->
+            <div class="card-body">
+                <p class="card-text">Ruam Henrique.</p>
+            </div>
+        </div>
+        <!-- Adicione mais cartões de equipe seguindo o mesmo padrão -->
+    </div>
+
+{% endblock %}
